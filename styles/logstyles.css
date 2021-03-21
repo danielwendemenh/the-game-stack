@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logbox {
+  height: 80vh;
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*  background-image: linear-gradient(to right bottom,rgba(180,205,205,0.3),rgba(180,205,205,1));*/
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(160, 239, 255, 0.3)), to(#090979));
+  background: linear-gradient(to right bottom, rgba(160, 239, 255, 0.3), #090979);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 110px auto;
+  border-radius: 2rem;
+}
+
+body {
+  background-color: rgba(0, 0, 168, 0.192);
+}
+
+.logbutton {
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.logbutton:hover {
+  background-color: #dadada;
+}
+
+.pick {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.qp {
+  color: white;
+  cursor: pointer;
+}
+
+.qp:hover {
+  color: blue;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  border-bottom: gray;
+  border-radius: 2 rem;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  outline: none;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  height: 100%;
+  width: 44%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.login input {
+  width: 300px;
+  padding: 15px;
+  border-radius: 2rem;
+}
+
+.orbox {
+  width: 2%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+
+.orbox::after {
+  content: "";
+  width: 3px;
+  height: 49%;
+  z-index: -2;
+  display: block;
+  background-color: white;
+  position: absolute;
+  right: 50%;
+  top: 0;
+}
+
+.orbox::before {
+  content: "";
+  width: 3px;
+  height: 48%;
+  z-index: -2;
+  display: block;
+  background-color: white;
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+}
+
+.sginup {
+  min-width: 44%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sginup h1 {
+  padding: 10px;
+  top: 50%;
+  text-align: center;
+  color: white;
+}
+
+.sginup .names {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sginup .names input {
+  width: 45%;
+  border-radius: 2rem;
+}
+
+.sginup .other {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sginup .other input {
+  width: 500px;
+  border-radius: 2rem;
+  padding: 10px;
+}
+
+.sginup .signbtn {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 1rem;
+  outline: none;
+  width: 150px;
+}
+
+.sginup .signbtn:hover {
+  background-color: whitesmoke;
+}
+
+.sginup .otherop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sginup .otherop .fab {
+  color: white;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.sginup .otherop .fab:hover {
+  color: lightblue;
+}
+/*# sourceMappingURL=logstyles.css.map */
